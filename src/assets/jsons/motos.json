@@ -1,0 +1,58 @@
+[
+    {
+        "id" : 1,
+        "nmMoto": "2019 YAMAHA FZ25 FAZER",
+        "dsDescription": "YAMAHA, VERMELHO, FLEX MUITO SHOW DE BOLA.",
+        "nrPreco": "19.000",
+        "urlImg": "/src/assets/imgs/moto1.jpg"
+    },
+    {
+        "id" : 2,
+        "nmMoto": "2020 YAMAHA FZ25 FAZER",
+        "dsDescription": "YAMAHA, lixo, FLEX MUITO SHOW DE BOLA.",
+        "nrPreco": "27.000",
+        "urlImg": "/src/assets/imgs/moto1.jpg"
+    },
+    {
+        "id" : 3,
+        "nmMoto": "2049 YAMAHA FZ25 FAZER",
+        "dsDescription": "YAMAHA, VERMELHO, FLEX MUITO SHOW DE BOLA.",
+        "nrPreco": "100.000",
+        "urlImg": "/src/assets/imgs/moto1.jpg"
+    },
+    {
+        "id" : 4,
+        "nmMoto": "2003 YAMAHA FZ25 FAZER",
+        "dsDescription": "YAMAHA, VERMELHO, FLEX MUITO SHOW DE BOLA.",
+        "nrPreco": "10.000",
+        "urlImg": "/src/assets/imgs/moto1.jpg"
+    },
+    {
+        "id" : 5,
+        "nmMoto": "2000 MOTOROLA FZ25 FAZER",
+        "dsDescription": "YAMAHA, VERMELHO, FLEX MUITO SHOW DE BOLA.",
+        "nrPreco": "12.000",
+        "urlImg": "/src/assets/imgs/moto1.jpg"
+    },
+    {
+        "id" : 6,
+        "nmMoto": "2019 YAMAHA FZ25 FAZER",
+        "dsDescription": "YAMAHA, VERMELHO, FLEX MUITO SHOW DE BOLA.",
+        "nrPreco": "19.000",
+        "urlImg": "/src/assets/imgs/moto1.jpg"
+    },
+    {
+        "id" : 7,
+        "nmMoto": "2019 YAMAHA FZ25 FAZER",
+        "dsDescription": "YAMAHA, VERMELHO, FLEX MUITO SHOW DE BOLA.",
+        "nrPreco": "19.000",
+        "urlImg": "/src/assets/imgs/moto1.jpg"
+    },
+    {
+        "id" : 8,
+        "nmMoto": "2019 YAMAHA FZ25 FAZER",
+        "dsDescription": "YAMAHA, VERMELHO, FLEX MUITO SHOW DE BOLA.",
+        "nrPreco": "19.000",
+        "urlImg": "/src/assets/imgs/moto1.jpg"
+    }
+]
