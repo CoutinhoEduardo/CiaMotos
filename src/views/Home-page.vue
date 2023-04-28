@@ -1,9 +1,22 @@
 <template>
     <div class="body">
-      <Navegator></Navegator>
+      <div class="header">
+        <div>
+          <Navegator></Navegator>
+        </div>
+      </div>
+      
+      <div style="height: 50vh;" class="jumbotron bg-cover text-white">
+        <div class="container py-5 text-center video" style="padding: 0px !important;">
+            <div class="video">
+              <iframe width="100%" height="500" src="https://www.youtube.com/embed/BU9dmACgqvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>
+
       <div class="grid-motos">
-        <div v-for="item in motos" :key="item.index" class="grid-values">
-          <Grid :nmMoto="item.nmMoto" :nrPreco="item.nrPreco" :dsDescription="item.dsDescription" />
+        <div v-for="moto in motos" :key="moto.index" class="grid-values">
+          <Grid :nmMoto="moto.nmMoto" :nrPreco="moto.nrPreco" :dsDescription="moto.dsDescription" />
         </div>     
       </div>
       <div class="footer bg-dark">
@@ -53,18 +66,30 @@
       max-width: 1000px;
       justify-content: center;
     }
+
+    .header {
+     
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .header div{
+      width: 60vw;
+      height: 10vh;
+    }
+
+    .header div :first-child{
+      border-radius: 0px 0px 20px 20px;
+    }
   
     .footer{
       height: 700px;
     }
   
     .body{
-      background-color: aliceblue;
+      background-image: url('../assets/imgs/background2.jpg');
     }
-  
-    
-  
-  
   
     /* MOBILE */
   

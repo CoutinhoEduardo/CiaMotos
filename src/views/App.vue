@@ -1,5 +1,9 @@
+
+
 <template>
   <Home />
+
+  <router-view/>
 </template>
 
 <script>
@@ -17,10 +21,7 @@ export default {
   } 
   },
   methods:{
-    printObj(){
-      let objeto = motos
-      console.log(objeto)
-    }
+   
   }
 }
 
@@ -64,3 +65,6 @@ export default {
 }
 
 </style>
+
+
+
